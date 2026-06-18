@@ -77,9 +77,7 @@ public class AlertSystem {
         system.setMedium(new SMSService());
         system.notifyUser("Your verification code is 24681");
 
-        //Switch to WhatsApp
-        system.setMedium(new WhatsAppService());
-        system.notifyUser("You have activated your WhatsApp alerts");
+
 
 
         //Print log
